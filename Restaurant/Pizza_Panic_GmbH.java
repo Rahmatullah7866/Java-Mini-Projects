@@ -145,5 +145,6 @@ public class Pizza_Panic_GmbH {
 
             }
         }
+        sc.close();
     }
 }

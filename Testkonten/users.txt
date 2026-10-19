@@ -1,0 +1,5 @@
+admin;Java123
+max;Hallo2026
+lisa;Code456
+omar;Test789
+sophie;Login321

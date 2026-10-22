@@ -11,16 +11,18 @@ public class Main {
         for (int runde = 1; runde <= 5; runde++) {
             arr[0].fahreRunde();
             arr[1].fahreRunde();
-            System.out.println("Runde: " + runde + " " + arr[0].getName() + " " + arr[0].getStrecke() + " m | " + arr[1].getName() + " " + arr[1].getStrecke() + " m");
+            System.out.println("Runde: " + runde + " " + arr[0].getName() + " " + arr[0].getStrecke() +
+                    " m | " + arr[1].getName() + " " + arr[1].getStrecke() + " m");
 
             if (arr[0].getStrecke() > arr[1].getStrecke()) {
-                System.out.println(arr[0].getName() + " führt gerade");
+                System.out.println(arr[0].getName() + " führt gerade\n");
             } else if (arr[0].getStrecke() < arr[1].getStrecke()) {
-                System.out.println(arr[1].getName() + " führt gerade");
+                System.out.println(arr[1].getName() + " führt gerade\n");
             } else {
-                System.out.println("Gleichstand!");
+                System.out.println("Gleichstand!\n");
             }
         }
+
         if (arr[0].getStrecke() > arr[1].getStrecke()) {
             System.out.println("Gewinner: " + arr[0].getName());
         } else if  (arr[0].getStrecke() < arr[1].getStrecke()) {

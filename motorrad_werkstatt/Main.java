@@ -7,6 +7,7 @@ public class Main {
         Motorrad chopper = new Chopper("Harley-Davidson", "Iron 883");
 
         Motorrad[] motoraeder = {sport1, sport2, chopper};
+
         System.out.println("=== MOTORRad-WERKSTATT ===");
 
         for (Motorrad motor : motoraeder) {
